@@ -12,3 +12,14 @@ a {
     color: #18E36C;
     text-decoration: none;
 }
+
+div.pad {
+    padding: 25px;
+    margin: 0px;
+}
+
+div.line {
+    border: 2px solid grey;
+    padding: 25px;
+    margin: 0px;
+}
