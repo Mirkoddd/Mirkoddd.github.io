@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "it.mirko.transcriber",
+    "sha256_cert_fingerprints":
+    ["4C:01:FD:A0:23:0C:E2:FA:3A:AC:51:9B:DB:81:0C:A9:1A:9C:99:CC:DC:FB:99:C9:CA:46:25:F4:81:E3:49:D3"]
+  }
+}]
