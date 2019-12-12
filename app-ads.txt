@@ -1,4 +1,8 @@
 google.com, pub-5727022318804002, DIRECT, f088c47fec942fa0
+applovin.com, 2006dd02fef12ce2b530fa794d3b4633, DIRECT
+adcolony.com, 5d8cbf6671c93a42, RESELLER, 1ad675c9de6b5176
+rubiconproject.com, 16356, RESELLER, 0bfd66d529a55807
+openx.com, 540785403, RESELLER, 6a698e2ec38604c6
 startapp.com, 133023377, DIRECT
 pubmatic.com, 157559, RESELLER, 5d62403b186f2ace
 yahoo.com, 1510636, RESELLER
