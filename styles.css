@@ -13,6 +13,15 @@ a {
     text-decoration: none;
 }
 
+h1.bm {
+    color: #1A73E8;
+}
+
+a.bm {
+    color: #1A73E8;
+    text-decoration: none;
+}
+
 div.pad {
     padding: 25px;
     margin: 0px;
