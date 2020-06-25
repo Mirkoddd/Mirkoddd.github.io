@@ -1,34 +1,152 @@
-body {
-    background-color: #fafafa;
-    font-family: 'Roboto', sans-serif;
-    color: #222222;
+/** HEADER **/
+
+.logo {
+  height: 70px;
 }
 
-h1 {
-    color: #145B36;
+.screenshot {
+  height: 550px;
 }
 
-a {
-    color: #18E36C;
-    text-decoration: none;
+/** CONTENT **/
+
+.title {
+  margin: 0;
+  margin-top: 36px;
+  font-family: 'Roboto';
+  color: #606060;
 }
 
-h1.bm {
-    color: #1A73E8;
+.subtitle {
+  margin: 0;
+  margin-top: 8px;
+  font-family: 'Roboto';
+  color: #606060;
 }
 
-a.bm {
-    color: #1A73E8;
-    text-decoration: none;
+.title-container {
+  padding-top: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
 }
 
-div.pad {
-    padding: 25px;
-    margin: 0px;
+.title-column-left {
+  width: 50%;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  margin-right: 25px;
 }
 
-div.line {
-    border: 2px solid grey;
-    padding: 25px;
-    margin: 0px;
+.title-column-right {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 25px;
+}
+
+@media only screen and (max-width: 660px) {
+  .logo {
+    height: 70px;
+    margin-top: 24px;
+  }
+  
+  .title-container {
+    padding-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .title-column-left {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 0px;
+  }
+  
+  .title-column-right {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 0px;
+  }
+
+  .title {
+    margin: 0;
+    margin-top: 36px;
+    font-family: 'Llewie';
+    color: #606060;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .subtitle {
+    margin: 0;
+    margin-top: 8px;
+    font-family: 'Quicksand';
+    color: #606060;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.stores-container {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: row;
+}
+
+.appstore, .playstore {
+  height: 50px;
+  margin-right: 10px;
+}
+
+/** FOOTER **/
+
+.social-icon {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.social-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 24px;
+}
+
+
+.footer {
+  background-color: #F8E2C4;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.footer-row a, span {
+  font-family: 'Quicksand';
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.footer-logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
 }
