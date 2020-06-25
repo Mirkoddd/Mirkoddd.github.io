@@ -80,7 +80,7 @@
   .title {
     margin: 0;
     margin-top: 36px;
-    font-family: 'Llewie';
+    font-family: 'Roboto';
     color: #606060;
     text-align: center;
     padding-left: 10px;
@@ -90,7 +90,7 @@
   .subtitle {
     margin: 0;
     margin-top: 8px;
-    font-family: 'Quicksand';
+    font-family: 'Roboto';
     color: #606060;
     text-align: center;
     padding-left: 10px;
@@ -104,7 +104,7 @@
   flex-direction: row;
 }
 
-.appstore, .playstore {
+.playstore {
   height: 50px;
   margin-right: 10px;
 }
@@ -139,7 +139,7 @@
 }
 
 .footer-row a, span {
-  font-family: 'Quicksand';
+  font-family: 'Roboto';
   margin-left: 10px;
   margin-right: 10px;
 }
